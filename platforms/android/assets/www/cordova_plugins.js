@@ -1,43 +1,123 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
-        "id": "cordova-plugin-camera.Camera",
-        "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
-        "pluginId": "cordova-plugin-camera",
+        "id": "cordova-plugin-device.device",
+        "file": "plugins/cordova-plugin-device/www/device.js",
+        "pluginId": "cordova-plugin-device",
         "clobbers": [
-            "Camera"
+            "device"
         ]
     },
     {
-        "id": "cordova-plugin-camera.CameraPopoverOptions",
-        "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
-        "pluginId": "cordova-plugin-camera",
+        "id": "cordova-plugin-splashscreen.SplashScreen",
+        "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+        "pluginId": "cordova-plugin-splashscreen",
         "clobbers": [
-            "CameraPopoverOptions"
+            "navigator.splashscreen"
         ]
     },
     {
-        "id": "cordova-plugin-camera.camera",
-        "file": "plugins/cordova-plugin-camera/www/Camera.js",
-        "pluginId": "cordova-plugin-camera",
+        "id": "cordova-plugin-statusbar.statusbar",
+        "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+        "pluginId": "cordova-plugin-statusbar",
         "clobbers": [
-            "navigator.camera"
+            "window.StatusBar"
         ]
     },
     {
-        "id": "cordova-plugin-camera.CameraPopoverHandle",
-        "file": "plugins/cordova-plugin-camera/www/CameraPopoverHandle.js",
-        "pluginId": "cordova-plugin-camera",
+        "id": "cordova-plugin-tts.tts",
+        "file": "plugins/cordova-plugin-tts/www/tts.js",
+        "pluginId": "cordova-plugin-tts",
         "clobbers": [
-            "CameraPopoverHandle"
+            "TTS"
+        ]
+    },
+    {
+        "id": "ionic-plugin-keyboard.keyboard",
+        "file": "plugins/ionic-plugin-keyboard/www/android/keyboard.js",
+        "pluginId": "ionic-plugin-keyboard",
+        "clobbers": [
+            "cordova.plugins.Keyboard"
+        ],
+        "runs": true
+    },
+    {
+        "id": "org.apache.cordova.speech.speechrecognition.SpeechRecognition",
+        "file": "plugins/org.apache.cordova.speech.speechrecognition/www/SpeechRecognition.js",
+        "pluginId": "org.apache.cordova.speech.speechrecognition",
+        "clobbers": [
+            "SpeechRecognition"
+        ]
+    },
+    {
+        "id": "org.apache.cordova.speech.speechrecognition.SpeechRecognitionError",
+        "file": "plugins/org.apache.cordova.speech.speechrecognition/www/SpeechRecognitionError.js",
+        "pluginId": "org.apache.cordova.speech.speechrecognition",
+        "clobbers": [
+            "SpeechRecognitionError"
+        ]
+    },
+    {
+        "id": "org.apache.cordova.speech.speechrecognition.SpeechRecognitionAlternative",
+        "file": "plugins/org.apache.cordova.speech.speechrecognition/www/SpeechRecognitionAlternative.js",
+        "pluginId": "org.apache.cordova.speech.speechrecognition",
+        "clobbers": [
+            "SpeechRecognitionAlternative"
+        ]
+    },
+    {
+        "id": "org.apache.cordova.speech.speechrecognition.SpeechRecognitionResult",
+        "file": "plugins/org.apache.cordova.speech.speechrecognition/www/SpeechRecognitionResult.js",
+        "pluginId": "org.apache.cordova.speech.speechrecognition",
+        "clobbers": [
+            "SpeechRecognitionResult"
+        ]
+    },
+    {
+        "id": "org.apache.cordova.speech.speechrecognition.SpeechRecognitionResultList",
+        "file": "plugins/org.apache.cordova.speech.speechrecognition/www/SpeechRecognitionResultList.js",
+        "pluginId": "org.apache.cordova.speech.speechrecognition",
+        "clobbers": [
+            "SpeechRecognitionResultList"
+        ]
+    },
+    {
+        "id": "org.apache.cordova.speech.speechrecognition.SpeechRecognitionEvent",
+        "file": "plugins/org.apache.cordova.speech.speechrecognition/www/SpeechRecognitionEvent.js",
+        "pluginId": "org.apache.cordova.speech.speechrecognition",
+        "clobbers": [
+            "SpeechRecognitionEvent"
+        ]
+    },
+    {
+        "id": "org.apache.cordova.speech.speechrecognition.SpeechGrammar",
+        "file": "plugins/org.apache.cordova.speech.speechrecognition/www/SpeechGrammar.js",
+        "pluginId": "org.apache.cordova.speech.speechrecognition",
+        "clobbers": [
+            "SpeechGrammar"
+        ]
+    },
+    {
+        "id": "org.apache.cordova.speech.speechrecognition.SpeechGrammarList",
+        "file": "plugins/org.apache.cordova.speech.speechrecognition/www/SpeechGrammarList.js",
+        "pluginId": "org.apache.cordova.speech.speechrecognition",
+        "clobbers": [
+            "SpeechGrammarList"
         ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
+    "cordova-plugin-console": "1.0.5",
+    "cordova-plugin-device": "1.1.4",
+    "cordova-plugin-splashscreen": "4.0.1",
+    "cordova-plugin-statusbar": "2.2.1",
+    "cordova-plugin-tts": "0.2.3",
+    "cordova-plugin-whitelist": "1.3.1",
+    "ionic-plugin-keyboard": "2.2.1",
     "cordova-plugin-compat": "1.1.0",
-    "cordova-plugin-camera": "2.3.1"
+    "org.apache.cordova.speech.speechrecognition": "0.1.2"
 };
 // BOTTOM OF METADATA
 });
