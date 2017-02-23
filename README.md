@@ -16,3 +16,4 @@ By running "ionic build android" and "ionic run android", the app can be added t
 ### Notification
 What's more, by configuring config.xml and run "ionic resources", the pictures named icon.png and splash.png in the "resources folder" can
 produce more professional pictures in the resources/android folder.
+The plugins folder should be copied to guarantee the splash runs correctly.
