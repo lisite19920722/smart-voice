@@ -1,7 +1,7 @@
 {
-  "name": "cordova-speech",
+  "name": "smart-voice",
   "version": "1.1.1",
-  "description": "cordova-speech: An Ionic project",
+  "description": "smart-voice: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
@@ -17,10 +17,10 @@
   "cordovaPlugins": [
     "cordova-plugin-whitelist",
     "cordova-plugin-console",
-    "cordova-plugin-device",
     "cordova-plugin-statusbar",
-    "ionic-plugin-keyboard",
-    "cordova-plugin-splashscreen"
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen",
+    "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": []
 }

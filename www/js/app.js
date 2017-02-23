@@ -1,4 +1,3 @@
-
 angular.module('starter', ['ionic'])
  
 .controller('AppCtrl', function($scope) {
