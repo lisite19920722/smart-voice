@@ -31,4 +31,5 @@
     <splash src="resources\android\splash\drawable-port-ldpi-screen.png" density="port-ldpi"/>
   </platform>
   <icon src="resources\android\icon\drawable-xhdpi-icon.png"/>
+  <allow-navigation href="http://100.64.3.82:8100"/>
 </widget>
