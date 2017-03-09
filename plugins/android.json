@@ -30,6 +30,9 @@
         },
         "org.apache.cordova.speech.speechrecognition": {
             "PACKAGE_NAME": "com.ionicframework.smartvoice268194"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ionicframework.smartvoice268194"
         }
     },
     "dependent_plugins": {

@@ -1,11 +1,10 @@
 angular.module('starter', ['ionic'])
  
 .controller('AppCtrl', function($scope) {
+  //Text to Speech
   $scope.data = {
     speechText: ''
   };
-  $scope.recognizedText = '';
- 
   $scope.speakText = function() {
     TTS.speak({
            text: $scope.data.speechText,
@@ -17,7 +16,8 @@ angular.module('starter', ['ionic'])
            // Handle the error case
        });
   };
- 
+  //Speech to Text
+  $scope.recognizedText = '';
   $scope.record = function() {
     var recognition = new SpeechRecognition();
     recognition.onresult = function(event) {
@@ -27,5 +27,9 @@ angular.module('starter', ['ionic'])
         }
     };
     recognition.start();
-  };
+  }; 
+
+  $scope.open_win = function() {
+      window.open("https://www.baidu.com/s?wd=" + $scope.recognizedText);
+  }; 
 });
