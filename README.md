@@ -8,7 +8,8 @@ Ahead of all, run "npm install -g cordova ionic" and run "ionic start myApp blan
 1.Firstly, run "npm install" in the root directory of this project<br>
 2.Afterwards, to add plugins, run "ionic plugin add cordova-plugin-tts", "cordova plugin add https://github.com/macdonst/SpeechRecognitionPlugin"
   and "cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git"<br>
-3.At last, run "ionic platform add android" to obtain the capacity of android platform
+3.At last, run "ionic platform add android" to obtain the capacity of android platform.
+           run "ionic platform add ios" to obtain the capacity of ios platform
 
 ## Last Part
 By running "ionic build android" and "ionic run android", the app can be added to the mobile phone
