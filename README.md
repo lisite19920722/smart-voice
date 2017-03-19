@@ -13,8 +13,11 @@ Ahead of all, run "npm install -g cordova ionic" and run "ionic start myApp blan
   and "cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git"<br>
 
 ## Last Part
-By running "ionic build android" and "ionic run android", the app can be added to the mobile phone
-
+Android:<br>
+By running "ionic build android" and "ionic run android", the app can be added to the mobile phone<br>
+iOS:<br>
+sudo chmod -R a+rwx /appfolder<br>
+By running "ionic build ios" and "ionic run ios", the app can be added to the mobile phone<br>
 
 ### Notification
 What's more, by configuring config.xml and run "ionic resources", the pictures named icon.png(minimum size 192x192 px) and splash.png(minimum size 2208x2208 px) in the "resources folder" can
