@@ -9,7 +9,7 @@ Ahead of all, run "npm install -g cordova ionic" and run "ionic start myApp blan
 1.Firstly, run "npm install" in the root directory of this project<br>
 2.Afterwards, run "ionic platform add android" to obtain the capacity of android platform.<br>
 &nbsp;run "ionic platform add ios" to obtain the capacity of ios platform<br>
-3.At last, to add plugins, run "ionic plugin add cordova-plugin-tts", "cordova plugin add https://github.com/macdonst/SpeechRecognitionPlugin"
+3.At last, to add plugins, run "cordova plugin add cordova-plugin-tts", "cordova plugin add https://github.com/macdonst/SpeechRecognitionPlugin"
   and "cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git"<br>
 
 ## Last Part
