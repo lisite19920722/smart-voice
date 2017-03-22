@@ -37,7 +37,8 @@
       <ion-header-bar class="bar-positive">
         <h1 class="title">SAP Smart Voice</h1>
       </ion-header-bar>
-      <ion-content class="padding">
+      <ion-content class="padding">        
+        <!-- Text to Speech -->
         <div class="list list-inset">
           <label class="item item-input">
             <i class="icon ion-speakerphone placeholder-icon"></i>
@@ -47,8 +48,8 @@
         <button class="button button-full button-positive" ng-click="speakText()">
           <i class="icon ion-speakerphone placeholder-icon"></i>
           Text to Speech
-        </button>
- 
+        </button>   
+        <!-- Speech to Text -->
 		    <button class="button button-full button-positive" ng-click="record()">
           <i class="icon ion-ios-mic placeholder-icon"></i>
           Speech to Text
@@ -59,6 +60,7 @@
             {{recognizedText}}
           </div>
         </div>
+        <!-- Baidu Search -->
         <div class="list">
           <a class="item" href="#" ng-click="open_win()">
               Open a Browser Searching {{recognizedText}}
